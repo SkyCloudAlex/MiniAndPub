@@ -1,0 +1,832 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ArtifactsWorkspaceSettings">
+    <artifacts-to-build>
+      <artifact name="MiniAndPub:war exploded" />
+    </artifacts-to-build>
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="732c48a6-e803-427f-9f73-d21035ef63c2" name="Default" comment="">
+      <change afterPath="$PROJECT_DIR$/.classpath" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/dictionaries/Administrator.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/spring_boot.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.project" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.settings/.jsdtscope" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.settings/org.eclipse.core.resources.prefs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.settings/org.eclipse.jdt.core.prefs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.settings/org.eclipse.jdt.launching.prefs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.settings/org.eclipse.ltk.core.refactoring.prefs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.settings/org.eclipse.m2e.core.prefs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.settings/org.eclipse.m2e.wtp.prefs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.settings/org.eclipse.wst.common.component" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.settings/org.eclipse.wst.common.project.facet.core.prefs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.settings/org.eclipse.wst.common.project.facet.core.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.settings/org.eclipse.wst.jsdt.ui.superType.container" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.settings/org.eclipse.wst.jsdt.ui.superType.name" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.settings/org.eclipse.wst.validation.prefs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.settings/org.eclipse.wst.ws.service.policy.prefs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.springBeans" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/eroad/project/Application.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/eroad/project/configurer/AsyncConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/eroad/project/configurer/AuthorizationConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/eroad/project/configurer/MybatisConfigurer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/eroad/project/configurer/ResourceServerConfiguration.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/eroad/project/configurer/WebMvcConfigurer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/eroad/project/configurer/WebSecurityConfiguration.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/eroad/project/core/AbstractService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/eroad/project/core/Mapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/eroad/project/core/ProjectConstant.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/eroad/project/core/Result.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/eroad/project/core/ResultCode.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/eroad/project/core/ResultGenerator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/eroad/project/core/Service.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/eroad/project/core/ServiceException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/eroad/project/dao/SMenuMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/eroad/project/dao/SOrganizationMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/eroad/project/dao/SRoleMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/eroad/project/dao/SRoleMenuMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/eroad/project/dao/SSysLogMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/eroad/project/dao/SUserMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/eroad/project/dao/SUserRoleMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/eroad/project/dao/SVcodeMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/eroad/project/model/OAuthUser.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/eroad/project/model/OAuthUserDetails.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/eroad/project/model/SMenu.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/eroad/project/model/SOrganization.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/eroad/project/model/SRole.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/eroad/project/model/SRoleMenu.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/eroad/project/model/SSysLog.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/eroad/project/model/SUser.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/eroad/project/model/SUserRole.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/eroad/project/model/SVcode.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/eroad/project/model/SmsResult.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/eroad/project/model/SmsSendRequest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/eroad/project/model/SmsSendResponse.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/eroad/project/model/Template.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/eroad/project/model/TemplateParam.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/eroad/project/model/TemplateResult.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/eroad/project/service/OAuthUserService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/eroad/project/service/SMenuService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/eroad/project/service/SOrganizationService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/eroad/project/service/SRoleMenuService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/eroad/project/service/SRoleService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/eroad/project/service/SSysLogService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/eroad/project/service/SUserRoleService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/eroad/project/service/SUserService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/eroad/project/service/SVcodeService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/eroad/project/service/impl/OAuthUserServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/eroad/project/service/impl/SMenuServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/eroad/project/service/impl/SOrganizationServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/eroad/project/service/impl/SRoleMenuServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/eroad/project/service/impl/SRoleServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/eroad/project/service/impl/SSysLogServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/eroad/project/service/impl/SUserRoleServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/eroad/project/service/impl/SUserServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/eroad/project/service/impl/SVcodeServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/eroad/project/task/ScheduledService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/eroad/project/test/Test.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/eroad/project/util/Base64Util.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/eroad/project/util/CommonUtil.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/eroad/project/util/ConvertUtil.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/eroad/project/util/DateUtil.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/eroad/project/util/Des3Util.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/eroad/project/util/HttpUtil.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/eroad/project/util/MD5Salt.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/eroad/project/util/SmsUtil.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/eroad/project/util/ThreeDes_key.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/eroad/project/util/TmsUtil.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/eroad/project/util/XmlBuilder.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/eroad/project/web/OAuthUserController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/eroad/project/web/SMenuController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/eroad/project/web/SOrganizationController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/eroad/project/web/SRoleController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/eroad/project/web/SRoleMenuController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/eroad/project/web/SSysLogController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/eroad/project/web/SUserController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/eroad/project/web/SUserRoleController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/eroad/project/web/SVcodeController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/eroad/project/web/WechatController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/application-dev.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/application-prod.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/application-test.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/application.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/banner.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/log4j.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/mapper/SMenuMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/mapper/SOrganizationMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/mapper/SRoleMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/mapper/SRoleMenuMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/mapper/SSysLogMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/mapper/SUserMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/mapper/SUserRoleMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/mapper/SVcodeMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/eroad/project/CodeGenerator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/eroad/project/Tester.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/resources/demo-user.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/resources/generator/template/controller-restful.ftl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/resources/generator/template/controller.ftl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/resources/generator/template/service-impl.ftl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/resources/generator/template/service.ftl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/application-dev.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/application-prod.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/application-test.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/application.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/banner.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/eroad/project/Application.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/eroad/project/configurer/AsyncConfig.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/eroad/project/configurer/AuthorizationConfig.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/eroad/project/configurer/MybatisConfigurer.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/eroad/project/configurer/ResourceServerConfiguration.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/eroad/project/configurer/WebMvcConfigurer$1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/eroad/project/configurer/WebMvcConfigurer$2.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/eroad/project/configurer/WebMvcConfigurer.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/eroad/project/configurer/WebSecurityConfiguration.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/eroad/project/core/AbstractService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/eroad/project/core/Mapper.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/eroad/project/core/ProjectConstant.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/eroad/project/core/Result.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/eroad/project/core/ResultCode.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/eroad/project/core/ResultGenerator.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/eroad/project/core/Service.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/eroad/project/core/ServiceException.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/eroad/project/dao/SMenuMapper.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/eroad/project/dao/SOrganizationMapper.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/eroad/project/dao/SRoleMapper.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/eroad/project/dao/SRoleMenuMapper.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/eroad/project/dao/SSysLogMapper.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/eroad/project/dao/SUserMapper.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/eroad/project/dao/SUserRoleMapper.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/eroad/project/dao/SVcodeMapper.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/eroad/project/model/OAuthUser.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/eroad/project/model/OAuthUserDetails.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/eroad/project/model/SMenu.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/eroad/project/model/SOrganization.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/eroad/project/model/SRole.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/eroad/project/model/SRoleMenu.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/eroad/project/model/SSysLog.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/eroad/project/model/SUser.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/eroad/project/model/SUserRole.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/eroad/project/model/SVcode.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/eroad/project/model/SmsResult.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/eroad/project/model/SmsSendRequest.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/eroad/project/model/SmsSendResponse.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/eroad/project/model/Template.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/eroad/project/model/TemplateParam.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/eroad/project/model/TemplateResult.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/eroad/project/service/OAuthUserService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/eroad/project/service/SMenuService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/eroad/project/service/SOrganizationService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/eroad/project/service/SRoleMenuService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/eroad/project/service/SRoleService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/eroad/project/service/SSysLogService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/eroad/project/service/SUserRoleService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/eroad/project/service/SUserService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/eroad/project/service/SVcodeService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/eroad/project/service/impl/OAuthUserServiceImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/eroad/project/service/impl/SMenuServiceImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/eroad/project/service/impl/SOrganizationServiceImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/eroad/project/service/impl/SRoleMenuServiceImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/eroad/project/service/impl/SRoleServiceImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/eroad/project/service/impl/SSysLogServiceImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/eroad/project/service/impl/SUserRoleServiceImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/eroad/project/service/impl/SUserServiceImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/eroad/project/service/impl/SVcodeServiceImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/eroad/project/task/ScheduledService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/eroad/project/test/Test.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/eroad/project/util/Base64Util.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/eroad/project/util/CommonUtil.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/eroad/project/util/ConvertUtil.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/eroad/project/util/DateUtil.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/eroad/project/util/Des3Util.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/eroad/project/util/HttpUtil.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/eroad/project/util/MD5Salt.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/eroad/project/util/SmsUtil.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/eroad/project/util/ThreeDes_key.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/eroad/project/util/TmsUtil.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/eroad/project/util/XmlBuilder.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/eroad/project/web/OAuthUserController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/eroad/project/web/SMenuController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/eroad/project/web/SOrganizationController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/eroad/project/web/SRoleController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/eroad/project/web/SRoleMenuController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/eroad/project/web/SSysLogController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/eroad/project/web/SUserController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/eroad/project/web/SUserRoleController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/eroad/project/web/SVcodeController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/eroad/project/web/WechatController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/log4j.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/mapper/SMenuMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/mapper/SOrganizationMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/mapper/SRoleMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/mapper/SRoleMenuMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/mapper/SSysLogMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/mapper/SUserMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/mapper/SUserRoleMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/mapper/SVcodeMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/eroad-1.0/META-INF/MANIFEST.MF" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/eroad-1.0/WEB-INF/classes/application-dev.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/eroad-1.0/WEB-INF/classes/application-prod.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/eroad-1.0/WEB-INF/classes/application-test.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/eroad-1.0/WEB-INF/classes/application.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/eroad-1.0/WEB-INF/classes/banner.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/eroad-1.0/WEB-INF/classes/com/eroad/project/Application.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/eroad-1.0/WEB-INF/classes/com/eroad/project/configurer/AsyncConfig.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/eroad-1.0/WEB-INF/classes/com/eroad/project/configurer/AuthorizationConfig.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/eroad-1.0/WEB-INF/classes/com/eroad/project/configurer/MybatisConfigurer.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/eroad-1.0/WEB-INF/classes/com/eroad/project/configurer/ResourceServerConfiguration.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/eroad-1.0/WEB-INF/classes/com/eroad/project/configurer/WebMvcConfigurer$1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/eroad-1.0/WEB-INF/classes/com/eroad/project/configurer/WebMvcConfigurer$2.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/eroad-1.0/WEB-INF/classes/com/eroad/project/configurer/WebMvcConfigurer.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/eroad-1.0/WEB-INF/classes/com/eroad/project/configurer/WebSecurityConfiguration.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/eroad-1.0/WEB-INF/classes/com/eroad/project/core/AbstractService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/eroad-1.0/WEB-INF/classes/com/eroad/project/core/Mapper.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/eroad-1.0/WEB-INF/classes/com/eroad/project/core/ProjectConstant.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/eroad-1.0/WEB-INF/classes/com/eroad/project/core/Result.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/eroad-1.0/WEB-INF/classes/com/eroad/project/core/ResultCode.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/eroad-1.0/WEB-INF/classes/com/eroad/project/core/ResultGenerator.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/eroad-1.0/WEB-INF/classes/com/eroad/project/core/Service.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/eroad-1.0/WEB-INF/classes/com/eroad/project/core/ServiceException.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/eroad-1.0/WEB-INF/classes/com/eroad/project/dao/SMenuMapper.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/eroad-1.0/WEB-INF/classes/com/eroad/project/dao/SOrganizationMapper.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/eroad-1.0/WEB-INF/classes/com/eroad/project/dao/SRoleMapper.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/eroad-1.0/WEB-INF/classes/com/eroad/project/dao/SRoleMenuMapper.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/eroad-1.0/WEB-INF/classes/com/eroad/project/dao/SSysLogMapper.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/eroad-1.0/WEB-INF/classes/com/eroad/project/dao/SUserMapper.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/eroad-1.0/WEB-INF/classes/com/eroad/project/dao/SUserRoleMapper.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/eroad-1.0/WEB-INF/classes/com/eroad/project/dao/SVcodeMapper.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/eroad-1.0/WEB-INF/classes/com/eroad/project/model/OAuthUser.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/eroad-1.0/WEB-INF/classes/com/eroad/project/model/OAuthUserDetails.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/eroad-1.0/WEB-INF/classes/com/eroad/project/model/SMenu.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/eroad-1.0/WEB-INF/classes/com/eroad/project/model/SOrganization.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/eroad-1.0/WEB-INF/classes/com/eroad/project/model/SRole.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/eroad-1.0/WEB-INF/classes/com/eroad/project/model/SRoleMenu.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/eroad-1.0/WEB-INF/classes/com/eroad/project/model/SSysLog.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/eroad-1.0/WEB-INF/classes/com/eroad/project/model/SUser.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/eroad-1.0/WEB-INF/classes/com/eroad/project/model/SUserRole.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/eroad-1.0/WEB-INF/classes/com/eroad/project/model/SVcode.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/eroad-1.0/WEB-INF/classes/com/eroad/project/model/SmsResult.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/eroad-1.0/WEB-INF/classes/com/eroad/project/model/SmsSendRequest.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/eroad-1.0/WEB-INF/classes/com/eroad/project/model/SmsSendResponse.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/eroad-1.0/WEB-INF/classes/com/eroad/project/model/Template.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/eroad-1.0/WEB-INF/classes/com/eroad/project/model/TemplateParam.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/eroad-1.0/WEB-INF/classes/com/eroad/project/model/TemplateResult.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/eroad-1.0/WEB-INF/classes/com/eroad/project/service/OAuthUserService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/eroad-1.0/WEB-INF/classes/com/eroad/project/service/SMenuService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/eroad-1.0/WEB-INF/classes/com/eroad/project/service/SOrganizationService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/eroad-1.0/WEB-INF/classes/com/eroad/project/service/SRoleMenuService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/eroad-1.0/WEB-INF/classes/com/eroad/project/service/SRoleService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/eroad-1.0/WEB-INF/classes/com/eroad/project/service/SSysLogService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/eroad-1.0/WEB-INF/classes/com/eroad/project/service/SUserRoleService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/eroad-1.0/WEB-INF/classes/com/eroad/project/service/SUserService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/eroad-1.0/WEB-INF/classes/com/eroad/project/service/SVcodeService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/eroad-1.0/WEB-INF/classes/com/eroad/project/service/impl/OAuthUserServiceImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/eroad-1.0/WEB-INF/classes/com/eroad/project/service/impl/SMenuServiceImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/eroad-1.0/WEB-INF/classes/com/eroad/project/service/impl/SOrganizationServiceImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/eroad-1.0/WEB-INF/classes/com/eroad/project/service/impl/SRoleMenuServiceImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/eroad-1.0/WEB-INF/classes/com/eroad/project/service/impl/SRoleServiceImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/eroad-1.0/WEB-INF/classes/com/eroad/project/service/impl/SSysLogServiceImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/eroad-1.0/WEB-INF/classes/com/eroad/project/service/impl/SUserRoleServiceImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/eroad-1.0/WEB-INF/classes/com/eroad/project/service/impl/SUserServiceImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/eroad-1.0/WEB-INF/classes/com/eroad/project/service/impl/SVcodeServiceImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/eroad-1.0/WEB-INF/classes/com/eroad/project/task/ScheduledService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/eroad-1.0/WEB-INF/classes/com/eroad/project/test/Test.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/eroad-1.0/WEB-INF/classes/com/eroad/project/util/Base64Util.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/eroad-1.0/WEB-INF/classes/com/eroad/project/util/CommonUtil.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/eroad-1.0/WEB-INF/classes/com/eroad/project/util/ConvertUtil.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/eroad-1.0/WEB-INF/classes/com/eroad/project/util/DateUtil.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/eroad-1.0/WEB-INF/classes/com/eroad/project/util/Des3Util.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/eroad-1.0/WEB-INF/classes/com/eroad/project/util/HttpUtil.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/eroad-1.0/WEB-INF/classes/com/eroad/project/util/MD5Salt.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/eroad-1.0/WEB-INF/classes/com/eroad/project/util/SmsUtil.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/eroad-1.0/WEB-INF/classes/com/eroad/project/util/ThreeDes_key.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/eroad-1.0/WEB-INF/classes/com/eroad/project/util/TmsUtil.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/eroad-1.0/WEB-INF/classes/com/eroad/project/util/XmlBuilder.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/eroad-1.0/WEB-INF/classes/com/eroad/project/web/OAuthUserController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/eroad-1.0/WEB-INF/classes/com/eroad/project/web/SMenuController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/eroad-1.0/WEB-INF/classes/com/eroad/project/web/SOrganizationController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/eroad-1.0/WEB-INF/classes/com/eroad/project/web/SRoleController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/eroad-1.0/WEB-INF/classes/com/eroad/project/web/SRoleMenuController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/eroad-1.0/WEB-INF/classes/com/eroad/project/web/SSysLogController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/eroad-1.0/WEB-INF/classes/com/eroad/project/web/SUserController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/eroad-1.0/WEB-INF/classes/com/eroad/project/web/SUserRoleController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/eroad-1.0/WEB-INF/classes/com/eroad/project/web/SVcodeController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/eroad-1.0/WEB-INF/classes/com/eroad/project/web/WechatController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/eroad-1.0/WEB-INF/classes/log4j.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/eroad-1.0/WEB-INF/classes/mapper/SMenuMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/eroad-1.0/WEB-INF/classes/mapper/SOrganizationMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/eroad-1.0/WEB-INF/classes/mapper/SRoleMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/eroad-1.0/WEB-INF/classes/mapper/SRoleMenuMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/eroad-1.0/WEB-INF/classes/mapper/SSysLogMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/eroad-1.0/WEB-INF/classes/mapper/SUserMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/eroad-1.0/WEB-INF/classes/mapper/SUserRoleMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/eroad-1.0/WEB-INF/classes/mapper/SVcodeMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/eroad-1.0/WEB-INF/lib/animal-sniffer-annotations-1.14.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/eroad-1.0/WEB-INF/lib/aopalliance-1.0.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/eroad-1.0/WEB-INF/lib/classmate-1.3.4.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/eroad-1.0/WEB-INF/lib/commons-codec-1.10.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/eroad-1.0/WEB-INF/lib/commons-httpclient-3.1.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/eroad-1.0/WEB-INF/lib/commons-lang3-3.6.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/eroad-1.0/WEB-INF/lib/commons-logging-1.2.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/eroad-1.0/WEB-INF/lib/druid-1.1.10.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/eroad-1.0/WEB-INF/lib/druid-spring-boot-starter-1.1.10.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/eroad-1.0/WEB-INF/lib/error_prone_annotations-2.0.18.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/eroad-1.0/WEB-INF/lib/fastjson-1.2.47.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/eroad-1.0/WEB-INF/lib/guava-23.0.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/eroad-1.0/WEB-INF/lib/hibernate-validator-5.3.6.Final.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/eroad-1.0/WEB-INF/lib/httpclient-4.5.1.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/eroad-1.0/WEB-INF/lib/httpcore-4.4.9.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/eroad-1.0/WEB-INF/lib/j2objc-annotations-1.1.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/eroad-1.0/WEB-INF/lib/jackson-annotations-2.8.0.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/eroad-1.0/WEB-INF/lib/jackson-core-2.8.11.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/eroad-1.0/WEB-INF/lib/jackson-core-asl-1.9.13.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/eroad-1.0/WEB-INF/lib/jackson-databind-2.8.11.1.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/eroad-1.0/WEB-INF/lib/jackson-mapper-asl-1.9.13.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/eroad-1.0/WEB-INF/lib/jboss-logging-3.3.2.Final.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/eroad-1.0/WEB-INF/lib/jcl-over-slf4j-1.7.25.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/eroad-1.0/WEB-INF/lib/jsqlparser-0.9.5.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/eroad-1.0/WEB-INF/lib/jsr305-1.3.9.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/eroad-1.0/WEB-INF/lib/jul-to-slf4j-1.7.25.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/eroad-1.0/WEB-INF/lib/log4j-1.2.17.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/eroad-1.0/WEB-INF/lib/log4j-over-slf4j-1.7.25.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/eroad-1.0/WEB-INF/lib/logback-classic-1.1.11.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/eroad-1.0/WEB-INF/lib/logback-core-1.1.11.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/eroad-1.0/WEB-INF/lib/mapper-3.4.2.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/eroad-1.0/WEB-INF/lib/mybatis-3.4.5.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/eroad-1.0/WEB-INF/lib/mybatis-spring-1.3.1.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/eroad-1.0/WEB-INF/lib/mysql-connector-java-5.1.46.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/eroad-1.0/WEB-INF/lib/pagehelper-4.2.1.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/eroad-1.0/WEB-INF/lib/persistence-api-1.0.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/eroad-1.0/WEB-INF/lib/slf4j-api-1.7.21.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/eroad-1.0/WEB-INF/lib/slf4j-log4j12-1.7.21.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/eroad-1.0/WEB-INF/lib/snakeyaml-1.17.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/eroad-1.0/WEB-INF/lib/spring-aop-4.3.17.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/eroad-1.0/WEB-INF/lib/spring-beans-4.3.17.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/eroad-1.0/WEB-INF/lib/spring-boot-1.5.13.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/eroad-1.0/WEB-INF/lib/spring-boot-autoconfigure-1.5.13.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/eroad-1.0/WEB-INF/lib/spring-boot-starter-1.5.13.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/eroad-1.0/WEB-INF/lib/spring-boot-starter-jdbc-1.5.13.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/eroad-1.0/WEB-INF/lib/spring-boot-starter-logging-1.5.13.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/eroad-1.0/WEB-INF/lib/spring-boot-starter-security-1.5.13.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/eroad-1.0/WEB-INF/lib/spring-boot-starter-web-1.5.13.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/eroad-1.0/WEB-INF/lib/spring-context-4.3.17.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/eroad-1.0/WEB-INF/lib/spring-core-4.3.17.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/eroad-1.0/WEB-INF/lib/spring-expression-4.3.17.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/eroad-1.0/WEB-INF/lib/spring-jdbc-4.3.17.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/eroad-1.0/WEB-INF/lib/spring-security-config-4.2.6.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/eroad-1.0/WEB-INF/lib/spring-security-core-4.2.6.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/eroad-1.0/WEB-INF/lib/spring-security-oauth2-2.0.14.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/eroad-1.0/WEB-INF/lib/spring-security-web-4.2.6.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/eroad-1.0/WEB-INF/lib/spring-tx-4.3.17.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/eroad-1.0/WEB-INF/lib/spring-web-4.3.17.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/eroad-1.0/WEB-INF/lib/spring-webmvc-4.3.17.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/eroad-1.0/WEB-INF/lib/tomcat-jdbc-8.5.31.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/eroad-1.0/WEB-INF/lib/tomcat-juli-8.5.31.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/eroad-1.0/WEB-INF/lib/validation-api-1.1.0.Final.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/m2e-jee/web-resources/META-INF/MANIFEST.MF" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/m2e-jee/web-resources/META-INF/maven/eroad/eroad/pom.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/m2e-jee/web-resources/META-INF/maven/eroad/eroad/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/m2e-jee/web-resources/META-INF/maven/jdels_om/jdels_om/pom.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/m2e-jee/web-resources/META-INF/maven/jdels_om/jdels_om/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/m2e-wtp/web-resources/META-INF/MANIFEST.MF" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/m2e-wtp/web-resources/META-INF/maven/jdels/jdels/pom.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/m2e-wtp/web-resources/META-INF/maven/jdels/jdels/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/test-classes/com/eroad/project/CodeGenerator.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/test-classes/com/eroad/project/Tester.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/test-classes/demo-user.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/test-classes/generator/template/controller-restful.ftl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/test-classes/generator/template/controller.ftl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/test-classes/generator/template/service-impl.ftl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/test-classes/generator/template/service.ftl" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="LogFilters">
+    <option name="FILTER_ERRORS" value="false" />
+    <option name="FILTER_WARNINGS" value="false" />
+    <option name="FILTER_INFO" value="true" />
+    <option name="FILTER_DEBUG" value="true" />
+    <option name="CUSTOM_FILTER" />
+  </component>
+  <component name="ProjectId" id="1avhuLkPRpYjmCzvAAftJzYxQIk" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RequestMappingsPanelOrder0" value="0" />
+    <property name="RequestMappingsPanelOrder1" value="1" />
+    <property name="RequestMappingsPanelOrder2" value="2" />
+    <property name="RequestMappingsPanelWidth0" value="75" />
+    <property name="RequestMappingsPanelWidth1" value="75" />
+    <property name="RequestMappingsPanelWidth2" value="75" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="project.structure.last.edited" value="Global Libraries" />
+    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="settings.github" />
+  </component>
+  <component name="RunManager" selected="Tomcat Server.Tomcat 8.5.32">
+    <configuration default="true" type="tests" factoryName="Nosetests">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="_new_regexPattern" value="&quot;&quot;" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;&quot;" />
+      <option name="_new_targetType" value="&quot;PATH&quot;" />
+    </configuration>
+    <configuration default="true" type="tests" factoryName="Twisted Trial">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;&quot;" />
+      <option name="_new_targetType" value="&quot;PATH&quot;" />
+    </configuration>
+    <configuration default="true" type="tests" factoryName="Unittests">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;&quot;" />
+      <option name="_new_targetType" value="&quot;PATH&quot;" />
+    </configuration>
+    <configuration default="true" type="tests" factoryName="py.test">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="_new_keywords" value="&quot;&quot;" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;&quot;" />
+      <option name="_new_targetType" value="&quot;PATH&quot;" />
+    </configuration>
+    <configuration name="CodeGenerator" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="CodeGenerator" />
+      <module name="spring-boot-api-project-seed" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="Application" factoryName="Application">
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Tester" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="spring-boot-api-project-seed" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.conpany.project.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.conpany.project" />
+      <option name="MAIN_CLASS_NAME" value="com.conpany.project.Tester" />
+      <option name="TEST_OBJECT" value="class" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="JUnit" factoryName="JUnit">
+      <option name="TEST_OBJECT" value="class" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Application (1)" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="spring_boot" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.eroad.project.Application" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Application" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="spring-boot-api-project-seed" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.company.project.Application" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="TestNG">
+      <option name="TEST_OBJECT" value="CLASS" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Tomcat 8.5.32" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" APPLICATION_SERVER_NAME="Tomcat 8.5.32" ALTERNATIVE_JRE_ENABLED="true" ALTERNATIVE_JRE_PATH="1.8" nameIsGenerated="true">
+      <option name="OPEN_IN_BROWSER" value="false" />
+      <option name="BROWSER_ID" value="98ca6316-2f89-46d9-a9e5-fa9e2b0625b3" />
+      <deployment>
+        <artifact name="MiniAndPub:war exploded">
+          <settings>
+            <option name="CONTEXT_PATH" value="/MiniAndPub" />
+          </settings>
+        </artifact>
+      </deployment>
+      <server-settings>
+        <option name="BASE_DIRECTORY_NAME" value="Unnamed_MiniAndPub" />
+        <option name="HTTP_PORT" value="8087" />
+        <option name="JNDI_PORT" value="1012" />
+      </server-settings>
+      <predefined_log_file enabled="true" id="Tomcat" />
+      <predefined_log_file enabled="true" id="Tomcat Catalina" />
+      <predefined_log_file id="Tomcat Manager" />
+      <predefined_log_file id="Tomcat Host Manager" />
+      <predefined_log_file id="Tomcat Localhost Access" />
+      <RunnerSettings RunnerId="Debug">
+        <option name="DEBUG_PORT" value="61144" />
+      </RunnerSettings>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Cover">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Debug">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Run">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <method v="2">
+        <option name="Make" enabled="true" />
+        <option name="BuildArtifacts" enabled="true">
+          <artifact name="MiniAndPub:war exploded" />
+        </option>
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="Application.CodeGenerator" />
+      <item itemvalue="JUnit.Tester" />
+      <item itemvalue="Spring Boot.Application" />
+      <item itemvalue="Spring Boot.Application (1)" />
+      <item itemvalue="Tomcat Server.Tomcat 8.5.32" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.CodeGenerator" />
+        <item itemvalue="JUnit.Tester" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="ServiceViewManager">
+    <option name="viewStates">
+      <list>
+        <serviceView>
+          <option name="contentProportion" value="0.21440397" />
+          <treeState>
+            <expand>
+              <path>
+                <item name="services root" type="e789fda9:ObjectUtils$Sentinel" />
+                <item name="Tomcat Server" type="7427dc5b:ServiceModel$ServiceGroupNode" />
+              </path>
+              <path>
+                <item name="services root" type="e789fda9:ObjectUtils$Sentinel" />
+                <item name="Tomcat Server" type="7427dc5b:ServiceModel$ServiceGroupNode" />
+                <item name="Running" type="7427dc5b:ServiceModel$ServiceGroupNode" />
+              </path>
+            </expand>
+            <select />
+          </treeState>
+        </serviceView>
+      </list>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="732c48a6-e803-427f-9f73-d21035ef63c2" name="Default" comment="" />
+      <created>1533623730653</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1533623730653</updated>
+      <workItem from="1533623736115" duration="7981000" />
+      <workItem from="1534549548361" duration="1325000" />
+      <workItem from="1538091509788" duration="33014000" />
+      <workItem from="1587622199190" duration="101000" />
+      <workItem from="1587622524857" duration="3450000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TodoView" selected-index="2">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="96" y="0" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1587627400018">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state x="96" y="0" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1280.680@0.0.1280.680" timestamp="1587627400018" />
+    <state x="474" y="104" key="FileChooserDialogImpl" timestamp="1587628465748">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state x="474" y="104" key="FileChooserDialogImpl/0.0.1280.680@0.0.1280.680" timestamp="1587628465748" />
+    <state x="505" y="237" width="270" height="280" key="Github.ShareDialog" timestamp="1587628921768">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state x="505" y="237" width="270" height="280" key="Github.ShareDialog/0.0.1280.680@0.0.1280.680" timestamp="1587628921768" />
+    <state x="431" y="49" key="Github.UntrackedFilesDialog" timestamp="1587628936128">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state x="431" y="49" key="Github.UntrackedFilesDialog/0.0.1280.680@0.0.1280.680" timestamp="1587628936128" />
+    <state width="948" height="272" key="GridCell.Tab.0.bottom" timestamp="1587627414897">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state width="948" height="272" key="GridCell.Tab.0.bottom/0.0.1280.680@0.0.1280.680" timestamp="1587627414897" />
+    <state width="948" height="272" key="GridCell.Tab.0.center" timestamp="1587627414897">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state width="948" height="272" key="GridCell.Tab.0.center/0.0.1280.680@0.0.1280.680" timestamp="1587627414897" />
+    <state width="948" height="272" key="GridCell.Tab.0.left" timestamp="1587627414897">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state width="948" height="272" key="GridCell.Tab.0.left/0.0.1280.680@0.0.1280.680" timestamp="1587627414897" />
+    <state width="948" height="272" key="GridCell.Tab.0.right" timestamp="1587627414897">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state width="948" height="272" key="GridCell.Tab.0.right/0.0.1280.680@0.0.1280.680" timestamp="1587627414897" />
+    <state width="948" height="272" key="GridCell.Tab.1.bottom" timestamp="1587627414898">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state width="948" height="272" key="GridCell.Tab.1.bottom/0.0.1280.680@0.0.1280.680" timestamp="1587627414898" />
+    <state width="948" height="272" key="GridCell.Tab.1.center" timestamp="1587627414898">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state width="948" height="272" key="GridCell.Tab.1.center/0.0.1280.680@0.0.1280.680" timestamp="1587627414898" />
+    <state width="948" height="272" key="GridCell.Tab.1.left" timestamp="1587627414898">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state width="948" height="272" key="GridCell.Tab.1.left/0.0.1280.680@0.0.1280.680" timestamp="1587627414898" />
+    <state width="948" height="272" key="GridCell.Tab.1.right" timestamp="1587627414898">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state width="948" height="272" key="GridCell.Tab.1.right/0.0.1280.680@0.0.1280.680" timestamp="1587627414898" />
+    <state width="948" height="272" key="GridCell.Tab.2.bottom" timestamp="1587627414664">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state width="948" height="272" key="GridCell.Tab.2.bottom/0.0.1280.680@0.0.1280.680" timestamp="1587627414664" />
+    <state width="948" height="272" key="GridCell.Tab.2.center" timestamp="1587627414663">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state width="948" height="272" key="GridCell.Tab.2.center/0.0.1280.680@0.0.1280.680" timestamp="1587627414663" />
+    <state width="948" height="272" key="GridCell.Tab.2.left" timestamp="1587627414663">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state width="948" height="272" key="GridCell.Tab.2.left/0.0.1280.680@0.0.1280.680" timestamp="1587627414663" />
+    <state width="948" height="272" key="GridCell.Tab.2.right" timestamp="1587627414663">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state width="948" height="272" key="GridCell.Tab.2.right/0.0.1280.680@0.0.1280.680" timestamp="1587627414663" />
+    <state width="948" height="272" key="GridCell.Tab.3.bottom" timestamp="1587627414664">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state width="948" height="272" key="GridCell.Tab.3.bottom/0.0.1280.680@0.0.1280.680" timestamp="1587627414664" />
+    <state width="948" height="272" key="GridCell.Tab.3.center" timestamp="1587627414664">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state width="948" height="272" key="GridCell.Tab.3.center/0.0.1280.680@0.0.1280.680" timestamp="1587627414664" />
+    <state width="948" height="272" key="GridCell.Tab.3.left" timestamp="1587627414664">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state width="948" height="272" key="GridCell.Tab.3.left/0.0.1280.680@0.0.1280.680" timestamp="1587627414664" />
+    <state width="948" height="272" key="GridCell.Tab.3.right" timestamp="1587627414664">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state width="948" height="272" key="GridCell.Tab.3.right/0.0.1280.680@0.0.1280.680" timestamp="1587627414664" />
+    <state x="144" y="0" key="SettingsEditor" timestamp="1587628757601">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state x="144" y="0" key="SettingsEditor/0.0.1280.680@0.0.1280.680" timestamp="1587628757601" />
+    <state x="332" y="95" width="746" height="548" key="find.popup" timestamp="1587627265271">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state x="332" y="95" width="746" height="548" key="find.popup/0.0.1280.680@0.0.1280.680" timestamp="1587627265271" />
+    <state x="303" y="1" width="672" height="678" key="search.everywhere.popup" timestamp="1587627183919">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state x="303" y="1" width="672" height="678" key="search.everywhere.popup/0.0.1280.680@0.0.1280.680" timestamp="1587627183919" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>jar://$MAVEN_REPOSITORY$/org/springframework/security/oauth/spring-security-oauth2/2.3.3.RELEASE/spring-security-oauth2-2.3.3.RELEASE.jar!/org/springframework/security/oauth2/provider/request/DefaultOAuth2RequestFactory.class</url>
+          <line>61</line>
+          <option name="timeStamp" value="16" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/company/project/configurer/OAuth2AuthorizationConfig.java</url>
+          <line>29</line>
+          <option name="timeStamp" value="20" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-field">
+          <url>file://$PROJECT_DIR$/src/main/java/com/company/project/configurer/OAuth2AuthorizationConfig.java</url>
+          <line>25</line>
+          <properties field="dataSource" class="com.company.project.configurer.OAuth2AuthorizationConfig" />
+          <option name="timeStamp" value="18" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+</project>

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.eroad.project.dao.SVcodeMapper">
+  <resultMap id="BaseResultMap" type="com.eroad.project.model.SVcode">
+    <!--
+      WARNING - @mbg.generated
+    -->
+    <id column="v_id" jdbcType="VARCHAR" property="vId" />
+    <result column="v_code" jdbcType="VARCHAR" property="vCode" />
+    <result column="v_mobile_no" jdbcType="VARCHAR" property="vMobileNo" />
+    <result column="v_type" jdbcType="VARCHAR" property="vType" />
+    <result column="v_send_time" jdbcType="TIMESTAMP" property="vSendTime" />
+    <result column="v_expire_time" jdbcType="TIMESTAMP" property="vExpireTime" />
+    <result column="v_status" jdbcType="VARCHAR" property="vStatus" />
+  </resultMap>
+</mapper>

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.eroad.project.dao.SSysLogMapper">
+  <resultMap id="BaseResultMap" type="com.eroad.project.model.SSysLog">
+    <!--
+      WARNING - @mbg.generated
+    -->
+    <id column="l_id" jdbcType="VARCHAR" property="lId" />
+    <result column="l_content" jdbcType="VARCHAR" property="lContent" />
+    <result column="l_time" jdbcType="TIMESTAMP" property="lTime" />
+    <result column="u_id" jdbcType="VARCHAR" property="uId" />
+  </resultMap>
+  
+  <select id="findAllSysLog" resultType="map">
+  	select s.l_id as lId, s.l_content as lContent, date_format(s.l_time, '%Y-%m-%d %H:%i:%s') as lTime,
+  		   u.u_name as uName
+  	  from s_sys_log s
+  	  left join s_user u on u.u_id = s.u_id
+  	 order by s.l_time desc
+  </select>
+</mapper>

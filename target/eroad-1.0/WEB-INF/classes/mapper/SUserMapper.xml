@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.eroad.project.dao.SUserMapper">
+  <resultMap id="BaseResultMap" type="com.eroad.project.model.SUser">
+    <!--
+      WARNING - @mbg.generated
+    -->
+    <id column="u_id" jdbcType="VARCHAR" property="uId" />
+    <result column="u_name" jdbcType="VARCHAR" property="uName" />
+    <result column="u_username" jdbcType="VARCHAR" property="uUsername" />
+    <result column="u_nickname" jdbcType="VARCHAR" property="uNickname" />
+    <result column="u_mobile_no" jdbcType="VARCHAR" property="uMobileNo" />
+    <result column="u_password" jdbcType="VARCHAR" property="uPassword" />
+    <result column="u_status" jdbcType="VARCHAR" property="uStatus" />
+    <result column="u_co_id" jdbcType="VARCHAR" property="uCoId" />
+    <result column="u_dept_id" jdbcType="VARCHAR" property="uDeptId" />
+  </resultMap>
+  
+  <select id="findAllUser" resultType="map">
+  	select u.u_id as uId, u.u_name as uName, u.u_username as uUsername, u.u_nickname as uNickname,
+		   o.o_name as oName, u.u_mobile_no as uMobileNo, r.r_name as rName, u.u_status as uStatus
+	  from s_user u
+	  left join s_organization o on u.u_dept_id = o.o_id
+	  left join s_user_role ur on ur.u_id = u.u_id
+	  left join s_role r on r.r_id = ur.r_id
+	 where 1 = 1
+	 <if test="coId != null and coId != ''">
+	   and u.u_co_id = #{coId}
+	 </if>
+	 <if test="deptId != null and deptId != ''">
+	   and u.u_dept_id = #{deptId}
+	 </if>
+	 <if test="rId != null and rId != ''">
+	   and r.r_id = #{rId}
+	 </if>
+  </select>
+  
+  <select id="findUserById" parameterType="string" resultType="map">
+  	select u.u_id as uId, u.u_name as uName, u.u_username as uUsername, u.u_mobile_no as uMobileNo,
+  		   u.u_co_id as uCoId, u.u_dept_id as uDeptId, r.r_id as rId, u.u_status as uStatus
+	  from s_user u
+	  left join s_user_role ur on ur.u_id = u.u_id
+	  left join s_role r on r.r_id = ur.r_id
+	 where u.u_id = #{uId}
+  </select>
+</mapper>
